@@ -14,17 +14,19 @@ import P9 from "../../../public/p9.png"
 // import P1 from "../../../public/p1.png"
 const Header=()=>{
     return (
-        <div className="py-[100px] min-h-screen grid grid-cols-10 bg-custom-gradient-two z-10">
+        <div className="text-white py-[100px] min-h-screen grid grid-cols-10 bg-custom-gradient-two z-10">
             <div className="col-span-10 md:col-span-6 flex items-center justify-end">
-                <div className=" flex flex-col  space-y-7 pr-3">
+                <div className=" flex flex-col  space-y-7 pr-3 md:text-left text-center">
                     <div className="py-10">
                         <span className="">
                             <span className="bg-[#181414] text-[12px] px-[10px] py-[12px] rounded-[9px]">🎉 New in AI.GEN: Real Time Interaction</span>
                         </span>
                     </div>
-                    <p className="text-[48px] leading-[59px]">IOTA polygon serum ipsum<br/> WAX terraUSD gala THETA.</p>
+                    <p className="text-[28px] leading-[34px] md:text-[48px] md:leading-[59px]">IOTA polygon serum ipsum<br/> WAX terraUSD gala THETA.</p>
                     <p className="text-[14px] leading-[20px]"  >Chiliz serum TRON dash aave cardano crypto celo. Golem<br/> ankr bancor horizen ethereum quant bitcoin.</p>
+                    <div>
                     <button className="px-5 py-1 h-[40px] w-[133px] rounded-[4px] bg-custom-gradient-one">Get Started</button>
+                    </div>
                 </div>
             </div>
             <div className="col-span-4  hidden  md:grid-cols-3 relative md:grid">

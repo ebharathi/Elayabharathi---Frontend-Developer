@@ -23,9 +23,9 @@ import S21 from "../../../public/s21.png"
 
 const ImageSection=()=>{
     return(
-        <div className="bg-custom-gradient-three flex justify-center relative">
+        <div className="text-white bg-custom-gradient-three flex justify-center relative">
             <div className="absolute left-[53%] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                   <p className="text-[16px] md:text-[40px] "><span className="text-yellow-500">Create, customize, and publish </span>your digital persona to life effortlessly.</p>
+                   <p className="text-[11px] md:text-[40px] "><span className="text-yellow-500">Create, customize, and publish </span>your digital persona to life effortlessly.</p>
             </div>
              <div>
                 <div><Image className="opacity-50" alt="p1" src={S1}/></div>

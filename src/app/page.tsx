@@ -8,6 +8,7 @@ import Box from "@/Components/Box/Box";
 import Roadmap from "@/Components/Roadmap/Roadmap";
 import GetStarted from "@/Components/GetStarted/GetStarted";
 import Footer from "@/Components/Footer/Footer";
+import TokenomicsGraph from "@/Components/Graph/Graph";
 export default function Home() {
   return (
    <div>
@@ -17,6 +18,7 @@ export default function Home() {
       <MenuSection/>
       <Menu/>
       <Box/>
+      <TokenomicsGraph/>
       <Roadmap/>  
       <GetStarted/>
       <Footer/>

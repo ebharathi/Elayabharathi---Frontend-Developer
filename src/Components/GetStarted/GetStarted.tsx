@@ -23,42 +23,42 @@ import S21 from "../../../public/s21.png"
 
 const GetStarted=()=>{
     return (
-        <div className="flex justify-center relative">
-            <div className="bg-custom-gradient-seven opacity-100 px-10 rounded-lg grid grid-cols-2 absolute w-[80%] min-h-[150px] bottom-14">
+        <div className="bg-custom-gradient-two text-white flex justify-center relative">
+            <div className="text-[16px] md:text-[64px] bg-custom-gradient-seven opacity-100 px-10 rounded-lg grid grid-cols-2 absolute w-[90%] min-h-auto md:min-h-[150px] py-4 md:py-0 bottom-5 md:bottom-14">
                  <div className="col-span-1 flex items-center">
-                     <p className="text-[64px]">Get Started</p>
+                     <p className="">Get Started</p>
                  </div>
-                 <div className="col-span-1 flex justify-end items-center text-[64px]">
+                 <div className="col-span-1 flex justify-end items-center">
                     <p>&rarr;</p>
                  </div>
             </div>
              <div>
                 <div><Image className="" alt="p1" src={S1}/></div>
-                <div><Image  className=""  alt="p1" src={S2}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S2}/></div>
              </div>
              <div className="pt-20">
                     <div><Image  className=""  alt="p1" src={S4}/></div>
-                    <div><Image  className=""  alt="p1" src={S5}/></div>
+                    <div><Image  className="hidden md:block"  alt="p1" src={S5}/></div>
              </div>
              <div>
                 <div><Image  className=""  alt="p1" src={S7}/></div>
-                <div><Image  className=""  alt="p1" src={S8}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S8}/></div>
              </div>
              <div  className="pt-20">
                 <div><Image  className=""  alt="p1" src={S10}/></div>
-                <div><Image  className=""  alt="p1" src={S11}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S11}/></div>
              </div>
              <div >
                 <div><Image  className=""  alt="p1" src={S13}/></div>
-                <div><Image  className=""  alt="p1" src={S14}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S14}/></div>
              </div>
              <div  className="pt-20">
                 <div><Image  className=""  alt="p1" src={S16}/></div>
-                <div><Image  className=""  alt="p1" src={S17}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S17}/></div>
              </div>
              <div>
                 <div><Image  className=""  alt="p1" src={S19}/></div>
-                <div><Image  className=""  alt="p1" src={S20}/></div>
+                <div><Image  className="hidden md:block"  alt="p1" src={S20}/></div>
              </div>
         </div>
     )

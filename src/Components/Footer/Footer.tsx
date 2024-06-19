@@ -5,36 +5,38 @@ import TWITTER from "../../../public/twiiter.png";
 import Image from "next/image";
 const Footer=()=>{
     return (
-        <footer className="px-10 pt-20 pb-10">
-             <div className="grid grid-cols-2">
-                    <div className="col-span-1 flex items-center justify-center">
+        <footer className="px-1 md:px-10 pt-20 pb-5 md:pb-10 bg-custom-gradient-two text-white">
+             <div className="grid grid-cols-1 md:grid-cols-2">
+                    <div className="col-span-1 flex md:items-center justify-start pl-16 md:pl-0 text-[12px] md:text-[16px]">
                         <p>Dash dash terraUSD neo uniswap<br/> kadena helium avalanche polymath<br/> bancor.</p>
                     </div>
-                    <div className="col-span-1 flex flex-col gap-2 items-end">
-                           <p className="text-right text-[14px]">Looking for help?</p>
-                          <div className="flex gap-2">
+                    <div className="col-span-1 flex flex-col gap-2 items-center md:items-end text-[12px] md:text-[16px]">
+                          <div className="pr-16 md:pr-0 text-right w-full">
+                          <p className="text-right">Looking for help?</p>
+                          </div>
+                          <div className="flex gap-1 md:gap-2">
                                 <input  className="bg-transparent border-2 rounded-md px-2" type="text" placeholder="Enter your email"/>
                                 <button className="bg-custom-gradient-seven px-4 py-2 rounded-md">Submit</button>
                           </div>
                     </div>
              </div>
-             <div className="mt-20 pt-10 border-t-[1px] grid grid-cols-2">
+             <div className="text-[12px]  pt-10 mt-10 md:mt-20 pt-5 md:pt-10 md:border-t-[1px] grid grid-cols-2">
                    <div className="flex justify-start">
                       <p>AI. GEN</p>
                    </div>
                    <div className="flex justify-end">
-                      <ul className="flex gap-8">
+                      <ul className="flex gap-4 md:gap-8">
                          <li>
-                            <Image alt="" src={TWITTER}/>
+                            <Image alt="" className="w-3 md:w-auto" src={TWITTER}/>
                          </li>
                          <li>
-                            <Image alt="" src={LINEKDIN}/>
+                            <Image alt="" className="w-3 md:w-auto" src={LINEKDIN}/>
                          </li>
                          <li>
-                            <Image alt="" src={TIKTOK}/>
+                            <Image alt="" className="w-3 md:w-auto" src={TIKTOK}/>
                          </li>
                          <li>
-                            <Image alt="" src={YOUTUBE}/>
+                            <Image alt="" className="w-3 md:w-auto" src={YOUTUBE}/>
                          </li>
                        
                       </ul>

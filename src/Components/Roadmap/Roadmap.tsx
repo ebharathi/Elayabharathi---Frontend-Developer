@@ -22,16 +22,16 @@ const Roadmap=()=>{
 
     ]
     return (
-        <div>
-            <p className="text-center text-[48px]">Roadmap</p>
+        <div className="bg-custom-gradient-two">
+            <p className="text-center text-gradient text-[25px] md:text-[32px]">Roadmap</p>
             { 
                 roadmaps.map((single)=>  
-                <div className="grid grid-cols-2 py-32">
+                <div className="px-5 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0 py-5 md:py-20">
                         <div className="flex justify-start items-center">
-                            <div className="pl-40 pr-20">
-                                <p className="text-[48px]">{single.title}</p>
+                            <div className="md:pl-40 md:pr-20">
+                                <p className="text-[36px] md:text-[48px] text-gradient">{single.title}</p>
                                 <ul className="pl-5 list-disc">
-                                    {single.details.map((x)=><li className="list">{x}</li>)}
+                                    {single.details.map((x)=><li className="list text-[12px] md:text-[20px] ml-5 text-white">{x}</li>)}
                                 </ul>
                             </div>
                         </div>
