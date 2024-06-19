@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         "custom-gradient-roadmap": "linear-gradient(90deg, #F9C96D, #FA98BE, #FA79F2)"
       },
+      gridTemplateColumns: {
+        '13': 'repeat(13, minmax(0, 1fr))', // Example: Extend to 13 columns
+        '15': 'repeat(15, minmax(0, 1fr))', // Example: Extend to 15 columns
+        // Add more as needed
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

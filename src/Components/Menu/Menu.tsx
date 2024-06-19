@@ -11,7 +11,7 @@ const Menu = () => {
     ];
     const colors=["bg-custom-gradient-four","bg-custom-gradient-five","bg-custom-gradient-six"]
     return (
-      <div className="bg-custom-gradient-two py-20 relative overflow-hidden">
+      <div className="bg-custom-gradient-two py-3 relative overflow-hidden">
             <Image alt=""  className="w-10 md:w-auto absolute top-15 left-1/2" src={CORE}/>
             <Image alt=""  className="w-10 md:w-auto absolute bottom-8 left-2/3" src={MIC}/>
             <Image alt=""  className="w-10 md:w-auto absolute bottom-14  right-2/3" src={VIDEO}/>
