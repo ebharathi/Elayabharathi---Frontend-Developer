@@ -16,10 +16,10 @@ const MARGIN_Y = 50;
 const INFLEXION_PADDING = 20; 
 
 const colors = [
-  "#e0ac2b",
-  "#e85252",
-  "#6689c6",
-  "#9a6fb0",
+  "#028dfd",
+  "#9934ff",
+  "#ff8f34",
+  "#be2c2c",
   "#a53253",
   "#69b3a2",
 ];
@@ -60,7 +60,7 @@ export const DonutChart = ({ width, height, data }: DonutChartProps) => {
     const labelPosX = inflexionPoint[0] + 50 * (isRightLabel ? 1 : -1);
     const textAnchor = isRightLabel ? "start" : "end";
     const name = grp.data.name;
-    const value = `${grp.value}`;
+    const value = `(${grp.value}%)`;
 
     return (
         <g key={i}>

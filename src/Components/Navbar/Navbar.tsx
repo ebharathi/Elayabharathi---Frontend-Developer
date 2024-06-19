@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full px-4 md:px-[64px] py-[16px] min-h-[72px] grid grid-cols-2 bg-black bg-transparent bg-opacity-[20%] backdrop-blur-sm z-20 text-white">
+    <nav className="fixed top-0 w-full px-4 md:px-[64px] py-[16px] min-h-[72px] grid grid-cols-2 bg-black bg-opacity-[40%] backdrop-blur-md z-20 text-white">
       <div className="col-span-1 flex items-center gap-12">
         <p className="text-[20px]">AI.GEN</p>
         <ul className="hidden md:flex gap-8 text-[16px]">
