@@ -5,7 +5,7 @@ import TWITTER from "../../../public/twiiter.png";
 import Image from "next/image";
 const Footer=()=>{
     return (
-        <footer className="px-1 md:px-10 pt-20 pb-5 md:pb-10 bg-custom-gradient-two text-white">
+        <footer className="px-1 md:px-10 pt-10 md:pt-20 pb-5 md:pb-10  text-white">
              <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="col-span-1 flex md:items-center justify-start pl-16 md:pl-0 text-[12px] md:text-[16px]">
                         <p>Dash dash terraUSD neo uniswap<br/> kadena helium avalanche polymath<br/> bancor.</p>
@@ -20,7 +20,7 @@ const Footer=()=>{
                           </div>
                     </div>
              </div>
-             <div className="text-[12px]  pt-10 mt-10 md:mt-20 pt-5 md:pt-10 md:border-t-[1px] grid grid-cols-2">
+             <div className="text-[12px] mt-10 md:mt-20 pt-5 md:pt-10 border-t-[1px] grid grid-cols-2">
                    <div className="flex justify-start">
                       <p>AI. GEN</p>
                    </div>

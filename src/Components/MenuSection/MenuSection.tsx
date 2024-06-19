@@ -7,7 +7,7 @@ const MenuSection=()=>{
     const [active, setActive] = useState(0);
 
     return (
-      <div className="relative bg-custom-gradient-two py-10">
+      <div className="relative bg-gradient-menuOne">
         <div className="grid grid-cols-1 md:grid-cols-2 space-x-3 px-5 md:px-0 md:ml-[-180px]">
           <div className="col-span-1 flex justify-end">
             <Image alt="" src={GIRL} className="w-full" />

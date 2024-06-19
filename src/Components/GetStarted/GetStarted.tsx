@@ -23,7 +23,7 @@ import S21 from "../../../public/s21.png"
 
 const GetStarted=()=>{
     return (
-        <div className="bg-custom-gradient-two text-white flex justify-center relative">
+        <div className="bg-gradient-start text-white flex justify-center relative">
             <div className="text-[16px] md:text-[64px] bg-custom-gradient-seven opacity-100 px-10 rounded-lg grid grid-cols-2 absolute w-[90%] min-h-auto md:min-h-[150px] py-4 md:py-0 bottom-5 md:bottom-14">
                  <div className="col-span-1 flex items-center">
                      <p className="">Get Started</p>

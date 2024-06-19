@@ -12,16 +12,32 @@ import TokenomicsGraph from "@/Components/Graph/Graph";
 export default function Home() {
   return (
    <div>
-      <Navbar/>
-      <Header/>
-      <ImageSection/>
-      <MenuSection/>
-      <Menu/>
-      <Box/>
-      <TokenomicsGraph/>
-      <Roadmap/>  
-      <GetStarted/>
-      <Footer/>
+     <div className="bg-gradient-first">
+        <Navbar/>
+        <Header/>
+        <ImageSection/>
+     </div>
+     <div className="bg-gradient-two">
+        <MenuSection/>
+     </div>
+     <div className="bg-gradient-three">
+        <Menu/>
+     </div>
+     <div className="bg-gradient-four">
+        <Box/>
+     </div>
+     <div className="bg-gradient-five">
+        <TokenomicsGraph id=""/>
+     </div>
+      <div className="bg-gradient-six">
+        <Roadmap id=""/>  
+      </div>
+      <div className="bg-gradient-seven">
+        <GetStarted/>
+      </div>
+      <div className="bg-gradient-eight">
+        <Footer/>
+      </div>
    </div>
   );
 }

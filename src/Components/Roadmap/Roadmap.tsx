@@ -2,7 +2,10 @@ import Image from "next/image";
 import R1 from "../../../public/r1.png";
 import R2 from "../../../public/r2.png";
 import R3 from "../../../public/r3.png";
-const Roadmap=()=>{
+interface props{
+    id:string;
+}
+const Roadmap=({id}:props)=>{
     const roadmaps=[
         {
             title:"PHASE 1",
@@ -22,7 +25,7 @@ const Roadmap=()=>{
 
     ]
     return (
-        <div className="bg-custom-gradient-two">
+        <div id="roadmap" className="">
             <p className="text-center text-gradient text-[25px] md:text-[32px]">Roadmap</p>
             { 
                 roadmaps.map((single)=>  

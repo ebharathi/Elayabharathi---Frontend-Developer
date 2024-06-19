@@ -5,7 +5,7 @@ import KEYBOARD from "../../../public/keyboard.png";
 import HALO from "../../../public/halo.png"
 const Box=()=>{
     return (
-        <div className="bg-custom-gradient-two text-[10px] md:text-[20px] text-white py-20 px-5 md:px-0 flex flex-col gap-2 md:gap-10 justify-center items-center">
+        <div className=" text-[10px] md:text-[20px] text-white py-20 px-5 md:px-0 flex flex-col gap-2 md:gap-10 justify-center items-center">
             <div className="grid grid-cols-5 gap-1 md:gap-5">
                 <div className="col-span-2 bg-[#272426] rounded-xl overflow-hidden group relative">
                     <div className="flex flex-col justify-center items-center min-h-[100px] transition-opacity opacity-100 group-hover:opacity-0">

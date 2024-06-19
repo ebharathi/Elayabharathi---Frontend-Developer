@@ -2,8 +2,10 @@
 "use client"
 import React from 'react';
 import { DonutChart } from './DonutChart';
-
-const TokenomicsGraph = () => {
+interface props{
+  id:string;
+}
+const TokenomicsGraph = ({id}:props) => {
      const data = [
         {name:"BNB LP Pool", value: 30},
         {name:"Burned", value: 30},
@@ -24,10 +26,10 @@ const TokenomicsGraph = () => {
   };
 
   return (
-    <div className="flex flex-col items-center text-white bg-custom-gradient-two py-20">
+    <div id={"tokenomics"} className="flex flex-col items-center text-white bg-gradient-graph py-20">
       <p className="text-center text-gradient text-[25px] md:text-[32px]">Tokenomics</p>
       <div className='grid grid-cols-1 space-y-5 md:grid-cols-2 w-full pt-10'>
-          <div className='col-span-1  flex-1 flex flex-col gap-5 md:gap-10 justify-center md:px-40'>
+          <div className='col-span-1  flex-1 flex flex-col gap-5 md:gap-10 justify-center px-3 md:px-40'>
                <div className='grid grid-cols-10 '>
                     <div className='col-span-5 flex items-center'>
                         <p>Name</p>
@@ -53,7 +55,7 @@ const TokenomicsGraph = () => {
                     </div>
                 </div>
           </div>
-          <div className='col-span-1  flex-1 flex flex-col gap-5 md:gap-10 justify-center md:px-40'>
+          <div className='col-span-1  flex-1 flex flex-col gap-5 md:gap-10 justify-center px-3 md:px-40'>
                <div className='grid grid-cols-10 '>
                     <div className='col-span-5 flex items-center'>
                         <p>Token Name</p>
@@ -84,7 +86,7 @@ const TokenomicsGraph = () => {
         <div className="hidden md:block flex-1">
          <DonutChart data={data} width={700} height={700}/>
         </div>
-        <div className="relative left-[-50px] md:hidden flex-1">
+        <div className="relative left-[-50px] md:hidden flex-1" >
          <DonutChart data={data} width={500} height={500}/>
         </div>
         <div className=' flex-1 flex flex-col gap-2 justify-center px-5 md:px-40'>
@@ -115,7 +117,7 @@ const TokenomicsGraph = () => {
                      <p>: <span className='pl-5 opacity-[50%]'>30% tokens</span></p>
                    </div>
              </div>
-             <div className='border-[0.5px] border-gray rounded-md grid grid-cols-15 min-h-14'>
+             <div   className='border-[0.5px] border-gray rounded-md grid grid-cols-15 min-h-14'>
                    <div className='col-span-1 bg-[#028dfd]'></div>
                    <div className='col-span-7 flex items-center'>
                      <p className='px-3'>BNP LP Pol</p>

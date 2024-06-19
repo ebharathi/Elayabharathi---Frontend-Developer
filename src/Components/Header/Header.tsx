@@ -14,7 +14,7 @@ import P9 from "../../../public/p9.png"
 // import P1 from "../../../public/p1.png"
 const Header=()=>{
     return (
-        <div className="text-white py-[100px] md:pb-[500px] min-h-screen grid grid-cols-10 bg-custom-gradient-two z-10">
+        <div className="text-white pt-[100px] pb-[10px] md:pb-[500px] min-h-screen grid grid-cols-10 z-10">
             <div className="col-span-10 md:col-span-6 flex items-center justify-end">
                 <div className=" flex flex-col  space-y-7 pr-3 md:text-left text-center">
                     <div className="py-10">
